@@ -16,7 +16,7 @@ def edump(obj):
     return json.dumps(obj, sort_keys=True, indent=4)
 
 def getMysqlConn():
-    cnx = mysql.connector.connect(user='root', password='spine4me',
+    cnx = mysql.connector.connect(user='root', password='xxxx',
                               host='127.0.0.1',
                               database='images')
     return cnx
